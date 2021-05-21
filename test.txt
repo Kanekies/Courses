@@ -1,4 +1,6 @@
-from random import randint
+gdfgdfgdfgdgj jehlg
+gfdgjkfdgin24324
+42gfdwwrwerfrom random import randint
 
 _min = 1
 _max = 65
