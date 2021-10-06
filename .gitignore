@@ -26,3 +26,6 @@ Makefile.Release
 *.exe
 *.exe.metagen
 *.DS_Store
+*.pyc
+*~
+*.swp
