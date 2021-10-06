@@ -1,6 +1,8 @@
 .idea/
 debug/
 release/
+*/__pycache__/
+venv/
 Makefile
 Makefile.Debug
 Makefile.Release
@@ -23,3 +25,4 @@ Makefile.Release
 *.resx
 *.exe
 *.exe.metagen
+*.DS_Store
