@@ -1,7 +1,7 @@
 .idea/
 debug/
 release/
-*/__pycache__/
+*/__pycache__
 venv/
 Makefile
 Makefile.Debug
