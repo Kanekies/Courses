@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="{% url 'main' %}"><button>Main page</button></a>
+    {% for message in messages %}
+        <h2 style="color: {% if message.level_tag == 'error' %}
+            red
+        {% elif message.level_tag == 'info'%}green{% endif %}">
+        {{ message }}
+        </h2>
+    {% endfor %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit">
+    </form>
+</body>
+</html>
